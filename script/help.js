@@ -35,7 +35,7 @@ module.exports.run = async function({
                         eventCommands.forEach((eventCommand, index) => {
                                 helpMessage += `╭─────────────────╮\n |\t『 ${index + 1}.』  ${prefix}${eventCommand}\n╰─────────────────╯ \n`;
                         });
-                        helpMessage += `\nPage ${page}/${Math.ceil(commands.length / pages)}. To view the next page, type '${prefix}help page number'. To view information about a specific command, type '${prefix}help command name-make your own bot here 🌐: https://automated-bot-2n5f.onrender.com'.`;
+                        helpMessage += `\nPage ${page}/${Math.ceil(commands.length / pages)}. To view the next page, type '${prefix}help page number'. To view information about a specific command, type '${prefix}help command name\n\n-make your own bot here 🌐: https://raniel-automated-bot.onrender.com/'.`;
                         api.sendMessage(helpMessage, event.threadID, event.messageID);
                 } else if (!isNaN(input)) {
                         const page = parseInt(input);
@@ -70,7 +70,7 @@ module.exports.run = async function({
                                 const aliasesMessage = aliases.length ? `➛ Aliases: ${aliases.join(', ')}\n` : '';
                                 const descriptionMessage = description ? `Description: ${description}\n` : '';
                                 const usageMessage = usage ? `➛ Usage: ${usage}\n` : '';
-                                const creditsMessage = credits ? `➛ Credits: ${credits}\n` : '';
+        
                                 const versionMessage = version ? `➛ Version: ${version}\n` : '';
                                 const cooldownMessage = cooldown ? `➛ Cooldown: ${cooldown} second(s)\n` : '';
                                 const message = ` 「 Command 」\n\n➛ Name: ${name}\n${versionMessage}${roleMessage}\n${aliasesMessage}${descriptionMessage}${usageMessage}${creditsMessage}${cooldownMessage}`;
