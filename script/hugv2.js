@@ -30,7 +30,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Hug someone using their profile picture (v2).",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "[reply/@mention/uid]",
 };
 

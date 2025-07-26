@@ -3,6 +3,7 @@ const fs = require('fs-extra');
 
 module.exports.config = {
   name: "faceswap",
+  hasPrefix: false,
   version: "1.0.0",
   role: 0,
   credits: "Vern",

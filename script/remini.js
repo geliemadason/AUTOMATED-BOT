@@ -10,6 +10,7 @@ module.exports.config = {
   aliases: [],
   usages: "< reply to image >",
   cooldown: 5,
+  hasPrefix: false
 };
 
 module.exports.run = async ({ api, event }) => {

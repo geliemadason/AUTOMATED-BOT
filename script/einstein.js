@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Generate an Einstein meme using your provided text.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "einstein <text>",
 };
 

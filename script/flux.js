@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "vern",
   description: "Generate an image using the Flux AI model.",
   usage: "/flux <prompt>",
-  prefix: true,
+  hasPrefix: false,
   cooldowns: 5,
   commandCategory: "AI"
 };
@@ -15,7 +15,7 @@ module.exports.config = {
 module.exports.run = async function ({ api, event, args }) {
   const { threadID, messageID } = event;
   const prompt = args.join(' ').trim();
-  const prefix = "/"; // Change if your bot uses a dynamic prefix
+  const prefix = "-"; // Change if your bot uses a dynamic prefix
 
   // No prompt given
   if (!prompt) {

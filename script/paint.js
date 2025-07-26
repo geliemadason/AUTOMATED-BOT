@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Paint someone's profile picture.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "paint | paint reply | paint @mention | paint <uid>",
 };
 

@@ -7,7 +7,7 @@ module.exports.config = {
     version: "1.0.0",
     role: 0,
     description: "Generate a brat-style video/gif from text.",
-    hasPrefix: true,
+    hasPrefix: false,
     credits: "dev",
     cooldowns: 10,
     category: "media"

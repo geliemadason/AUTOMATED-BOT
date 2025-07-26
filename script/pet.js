@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Generate a cute pet meme using someone's profile picture.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "[reply/@mention/uid]",
 };
 

@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "vern",
   description: "Get Facebook profile picture by user ID.",
   usage: "/hack <facebook_id>",
-  prefix: true,
+  hasPrefix: false,
   cooldowns: 3,
   commandCategory: "Image"
 };

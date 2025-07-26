@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Generate a RIP meme.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "rip | rip reply | rip @mention | rip <uid>",
 };
 

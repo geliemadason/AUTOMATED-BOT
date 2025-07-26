@@ -10,6 +10,7 @@ module.exports.config = {
   usage: '<reply to an image>',
   credits: 'developer',
   cooldown: 3,
+  hasPrefix: false
 };
 
 module.exports.run = async function ({ api, event, args }) {

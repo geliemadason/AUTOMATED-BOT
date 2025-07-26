@@ -5,6 +5,7 @@ module.exports.config = {
   version: "1.0",
   role: 0,
   author: "Vern",
+  hasPrefix: false,
   credits: "Vina",
   aliases: ["gptfun"],
   countDown: 3,

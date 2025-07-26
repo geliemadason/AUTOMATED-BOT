@@ -147,7 +147,7 @@ module.exports.config = {
   name: "gagstock",
   version: "2.1.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   aliases: [],
   description: "GAG tracker with favorite item alerting, global last seen, and shared WebSocket.",
   usage: "gagstock on | off | fav add Carrot | lastseen egg",

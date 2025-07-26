@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "vern",
   description: "Get information about a country using the Rapido API.",
   usage: "/country <country name>",
-  prefix: true,
+  hasPrefix: false,
   cooldowns: 3,
   commandCategory: "Utility"
 };

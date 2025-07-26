@@ -7,7 +7,7 @@ module.exports.config = {
     version: "1.5.0",
     role: 2,
     description: "Create a Facebook post with message and optional attachment.",
-    prefix: false,
+    hasPrefix: false,
     premium: false,
     credits: "developer",
     cooldowns: 5,

@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Generate a jailed meme.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "jail | jail reply | jail @mention | jail <uid>",
 };
 

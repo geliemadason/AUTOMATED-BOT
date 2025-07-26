@@ -26,7 +26,7 @@ module.exports.config = {
   name: "ip",
   version: "1.0.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   aliases: ["ipinfo", "checkip"],
   credits: "Vern",
   description: "Check IP address information.",

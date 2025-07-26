@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "vern",
   description: "Generate a billboard image with your custom text using the Ace API.",
   usage: "/billboard <your message>",
-  prefix: true,
+  hasPrefix: false,
   cooldowns: 3,
   commandCategory: "Canvas"
 };

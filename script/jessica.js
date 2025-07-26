@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Generate a meme using the Jessica API.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "jessica <text>",
 };
 

@@ -4,7 +4,7 @@ module.exports.config = {
   name: "pair",
   version: "1.0.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   credits: "Vern",
   description: "Pairs two users and shows their match rate.",
   usages: "{p}pair",

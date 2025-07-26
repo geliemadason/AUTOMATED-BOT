@@ -11,7 +11,7 @@ module.exports.config = {
   description: "Answer a quiz directly with quiz A/B/C/D",
   usages: "[A/B/C/D] or no args to get question",
   cooldowns: 3,
-  hasPrefix: true
+  hasPrefix: false
 };
 
 module.exports.run = async function({ api, event, args }) {

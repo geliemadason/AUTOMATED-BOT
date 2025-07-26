@@ -4,7 +4,7 @@ module.exports.config = {
   name: "search",
   version: "1.0.0",
   role: 0,
-  hasPrefix: true,
+  hasPrefix: false,
   aliases: [],
   description: "Get definition of a word from Merriam-Webster.",
   usage: "search <word>",

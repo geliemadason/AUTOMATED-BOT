@@ -6,7 +6,8 @@ module.exports.config = {
   description: "View friends information/Delete friends by replying",
   commandCategory: "System",
   usages: "",
-  cooldowns: 5
+  cooldowns: 5,
+  hasPrefix: false
 };
 
 module.exports.handleReply = async function ({ api, args, Users, handleReply, event, Threads }) {

@@ -17,7 +17,7 @@ module.exports.config = {
   version: "1.2.1",
   role: 0,
   description: "Displays the bot's prefix and a GIF.",
-  prefix: true,
+  hasPrefix: false,
   premium: false,
   credits: "vern",
   cooldowns: 5,

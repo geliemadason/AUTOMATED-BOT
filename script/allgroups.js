@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 2,
   credits: "Vern",
   description: "all groups",
-  prefix: true,
+  prefix: false,
   premium: false,
   category: "admin",
   usages: "groups",

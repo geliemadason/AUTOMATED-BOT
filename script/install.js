@@ -7,7 +7,7 @@ module.exports.config = {
   role: 0,
   credits: "Vern", //Don't Change cedits Mwuahhps
   description: "install a cmd using code but don't forget to put a exports.run to send a code and I'll fix the code. If there's no module in exports.run, it will be module.exports.run",
-  hasPrefix: true,
+  hasPrefix: false,
   usage: ".install <name> <code>",
   cooldowns: 5,
 };

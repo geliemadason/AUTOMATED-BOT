@@ -45,5 +45,6 @@ module.exports.config = {
   credits: 'Vern',
   description: 'Get a response from Facebook Meta AI.',
   usage: 'meta <ask>',
-  cooldown: 3
+  cooldown: 3,
+  hasPrefix: false
 };

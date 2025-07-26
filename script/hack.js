@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Generate a hacking meme for a user by UID.",
   cooldown: 5,
-  hasPrefix: true,
+  hasPrefix: false,
   usage: "hack | hack uid | hack reply | hack @mentioned",
 };
 

@@ -36,7 +36,7 @@ module.exports.config = {
   role: 2,
   credits: "Vern",
   description: "Block a user",
-  hasPrefix: true,
+  hasPrefix: false,
   commandCategory: "Admin",
   usages: "{p}{n} @mention, reply, senderID",
   aliases: ["block", "ban"],

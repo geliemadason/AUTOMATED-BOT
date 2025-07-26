@@ -6,7 +6,7 @@ module.exports.config = {
   name: "developer",
   version: "1.0.0",
   role: 2,
-  hasPrefix: true,
+  hasPrefix: false,
   description: "Unknown",
   usage: "404",
   credits: "Developer",

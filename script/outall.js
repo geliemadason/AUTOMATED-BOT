@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "Vern",
   description: "Remove from all groups except the current group",
   usages: "{p}outall",
-  hasPrefix: true,
+  hasPrefix: false,
   cooldown: 5
 };
 

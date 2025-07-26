@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "vern",
   description: "Spam NGL inbox with a message using the Ace API.",
   usage: "/nglspam <username> | <amount> | <message>",
-  prefix: true,
+  hasPrefix: false,
   cooldowns: 10,
   commandCategory: "Fun"
 };

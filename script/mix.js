@@ -27,7 +27,7 @@ module.exports.config = {
     name: "mix",
     version: "1.0.0",
     role: 0,
-    hasPrefix: true,
+    hasPrefix: false,
     description: "Mix two emojis.",
     usage: "emojimix [emoji1] [emoji2]",
     credits: "Developer",

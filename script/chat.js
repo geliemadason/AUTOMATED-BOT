@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 1,
   credits: "Vern",
   description: "automatically kick the user from the group",
-  prefix: true,
+  hasPrefix: false,
   premium: false,
   category: "Admin",
   usages: "[on/off]",
