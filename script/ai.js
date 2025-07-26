@@ -8,7 +8,7 @@ module.exports.config = {
   aliases: ['gpt', 'gimage'],
   description: "Analyze question using Kaiz GPT-4o",
   usage: "ai [question]",
-  credits: 'Modified by ChatGPT from Raniel’s original',
+  credits: 'Gelie & Raniel',
   cooldown: 3,
 };
 
