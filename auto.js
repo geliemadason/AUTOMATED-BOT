@@ -119,7 +119,7 @@ const routes = [{
   path: '/',
   file: 'index.html'
 }, {
-  path: '/step_by_step_guide',
+  path: '/',
   file: 'guide.html'
 }, {
   path: '/online_user',
